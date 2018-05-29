@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankForms", "BankForms\BankForms.csproj", "{9A6F2760-D1D7-4E6B-B83C-0C37E1F07D12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankForms.Tests", "BankForms.Tests\BankForms.Tests.csproj", "{169AFB5B-65EF-4F00-B7B9-F6854FD75BE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankFormsSql", "BankFormsSql\BankFormsSql.csproj", "{9AFE915A-F04B-4A07-BAF6-D7A25A79DCF3}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BankFormsDatabase", "BankFormsDatabase\BankFormsDatabase.sqlproj", "{1FF5B956-9151-47D7-A1A6-19CD51A61888}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankForms.Mock", "BankForms.Mock\BankForms.Mock.csproj", "{BDBB091B-AC93-43E0-89E3-B873F15B3CA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankFormsDal", "BankFormsDal\BankFormsDal.csproj", "{F5C29CF4-C905-4C87-9805-735BAFD5663B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankFormsDomain", "BankFormsDomain\BankFormsDomain.csproj", "{407D09D1-7F9D-4E48-8AD3-ED45477746C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A6F2760-D1D7-4E6B-B83C-0C37E1F07D12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A6F2760-D1D7-4E6B-B83C-0C37E1F07D12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A6F2760-D1D7-4E6B-B83C-0C37E1F07D12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A6F2760-D1D7-4E6B-B83C-0C37E1F07D12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{169AFB5B-65EF-4F00-B7B9-F6854FD75BE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{169AFB5B-65EF-4F00-B7B9-F6854FD75BE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{169AFB5B-65EF-4F00-B7B9-F6854FD75BE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{169AFB5B-65EF-4F00-B7B9-F6854FD75BE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AFE915A-F04B-4A07-BAF6-D7A25A79DCF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AFE915A-F04B-4A07-BAF6-D7A25A79DCF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AFE915A-F04B-4A07-BAF6-D7A25A79DCF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AFE915A-F04B-4A07-BAF6-D7A25A79DCF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FF5B956-9151-47D7-A1A6-19CD51A61888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FF5B956-9151-47D7-A1A6-19CD51A61888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FF5B956-9151-47D7-A1A6-19CD51A61888}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1FF5B956-9151-47D7-A1A6-19CD51A61888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FF5B956-9151-47D7-A1A6-19CD51A61888}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FF5B956-9151-47D7-A1A6-19CD51A61888}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{BDBB091B-AC93-43E0-89E3-B873F15B3CA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDBB091B-AC93-43E0-89E3-B873F15B3CA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDBB091B-AC93-43E0-89E3-B873F15B3CA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDBB091B-AC93-43E0-89E3-B873F15B3CA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5C29CF4-C905-4C87-9805-735BAFD5663B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5C29CF4-C905-4C87-9805-735BAFD5663B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5C29CF4-C905-4C87-9805-735BAFD5663B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5C29CF4-C905-4C87-9805-735BAFD5663B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{407D09D1-7F9D-4E48-8AD3-ED45477746C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{407D09D1-7F9D-4E48-8AD3-ED45477746C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{407D09D1-7F9D-4E48-8AD3-ED45477746C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{407D09D1-7F9D-4E48-8AD3-ED45477746C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
